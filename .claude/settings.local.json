@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/choeyeongbin/binny0x00.github.io -name *glightbox* -o -name *popup*)"
+    ]
+  }
+}

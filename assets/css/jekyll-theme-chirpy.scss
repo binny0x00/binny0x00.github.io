@@ -9,3 +9,20 @@
 ';
 
 /* append your custom style below */
+
+/* Text highlight */
+mark {
+  border-radius: 3px;
+  padding: 0 3px;
+}
+
+[data-mode='light'] mark,
+html:not([data-mode='dark']) mark {
+  background-color: #faeab5;
+  color: #3a3a3a;
+}
+
+[data-mode='dark'] mark {
+  background-color: #4a3a1a;
+  color: #f2d16d;
+}
