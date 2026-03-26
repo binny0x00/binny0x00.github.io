@@ -5,6 +5,9 @@ date: 2026-03-25 00:00:00 +0900
 categories: [dev, javascript, react]
 tags: [virtual-dom, diff, patch, vanilla-js, benchmark]
 description: Vanilla JS로 pre-Fiber React 스타일 Virtual DOM 라이브러리 `cyb-react`를 구현하고, Demo Lab과 Benchmark로 동작을 검증한 작업 기록입니다.
+image:
+  path: https://github.com/user-attachments/assets/bbcd3bb5-16c8-46b1-998a-47ffdd2d065c
+  alt: Virtual DOM 라이브러리 구현
 ---
 
 이번 주 팀 프로젝트에서는 React의 핵심 개념인 Virtual DOM과 Diff 알고리즘을 직접 구현하는 작업을 진행했다. 목표는 단순히 개념을 정리하는 데서 끝나는 것이 아니라, 실제로 동작하는 라이브러리와 이를 눈으로 검증할 수 있는 시연 앱까지 함께 만드는 것이었다.
